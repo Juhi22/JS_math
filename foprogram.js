@@ -1,0 +1,1 @@
+const hatvanyozas = require('./hatvanyozas');
