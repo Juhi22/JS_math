@@ -2,7 +2,7 @@ const hatvanyozas = require('./pow');
 const faktorialis = require('./fact');
 
 let getrandom = (min, max) => {
-  return Math.floor(Math.random * max) + min;
+  return Math.floor(Math.random() * max) + min;
 };
 
 let min = 1;
