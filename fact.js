@@ -11,5 +11,4 @@ function faktorialis (n) {
   return temp;
 }
 
-let pelda1 = faktorialis(8);
-console.log(pelda1);
+module.exports = { faktorialis };
