@@ -8,6 +8,4 @@ const generateArray = (mennyinum) => {
   return result;
 };
 
-generateArray(10);
-
 module.exports = { generateArray };
