@@ -20,4 +20,4 @@ let contains = (generateArray, random) => {
 let pelda1 = contains(generateArray.generateArray(10), random);
 console.log(pelda1);
 
-module.exports = { contains };
+module.exports = { contains, getrandom };
