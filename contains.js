@@ -17,7 +17,4 @@ let contains = (generateArray, random) => {
   return false;
 };
 
-let pelda1 = contains(generateArray.generateArray(10), random);
-console.log(pelda1);
-
 module.exports = { contains, getrandom };
