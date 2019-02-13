@@ -1,5 +1,3 @@
-const generateArray = require('./generateArray');
-
 const evenSum = (array) => {
   let result = 0;
   for (let i = 0; i < array.length; i++) {
@@ -12,4 +10,4 @@ const evenSum = (array) => {
 
 module.exports = { evenSum };
 
-// let array = generateArray.generateArray(10);
+let array = generateArray.generateArray(10)
