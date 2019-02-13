@@ -9,5 +9,3 @@ const evenSum = (array) => {
 };
 
 module.exports = { evenSum };
-
-let array = generateArray.generateArray(10)
