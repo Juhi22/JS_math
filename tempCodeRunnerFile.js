@@ -1,0 +1,1 @@
+let array = generateArray.generateArray(10);

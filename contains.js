@@ -14,7 +14,7 @@ let contains = (generateArray, random) => {
     if (arr[i] == random) {
       return true;
     }
-  }re
+  }
  return false;
 }
 let pelda1 = contains(generateArray.generateArray(10), random);
