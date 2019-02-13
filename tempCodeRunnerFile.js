@@ -1,1 +1,1 @@
-let array = generateArray.generateArray(10);
+console.log(pelda1);

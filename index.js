@@ -7,5 +7,4 @@ function init (number) {
   return result;
 }
 
-let array = generateArray.generateArray(10);
-init(10);
+console.log(init(10));
