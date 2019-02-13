@@ -9,7 +9,7 @@ let max = 20;
 let random = getrandom(min, max);
 
 
-let contains (generateArray.generateArray, random) => {
+let contains = (generateArray, random) => {
   for (i = 0; i < generatArray.length; i++) {
     if (arr[i] == random) {
       return true;
@@ -17,6 +17,6 @@ let contains (generateArray.generateArray, random) => {
   }
   return false;
 }
-let pelda1 = contains(generateArray; random);
+let pelda1 = contains(generateArray.generateArray, random);
 console.log(pelda1);
 
