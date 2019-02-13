@@ -8,15 +8,16 @@ let min = 1;
 let max = 20;
 let random = getrandom(min, max);
 
-
 let contains = (generateArray, random) => {
-  for (i = 0; i < generatArray.length; i++) {
-    if (arr[i] == random) {
+  for (let i = 0; i < generateArray.length; i++) {
+    if (generateArray[i] == random) {
       return true;
     }
   }
- return false;
-}
+  return false;
+};
+
 let pelda1 = contains(generateArray.generateArray(10), random);
 console.log(pelda1);
 
+module.exports = { contains };
